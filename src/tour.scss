@@ -1,0 +1,100 @@
+.tour__box {
+    font-family: 'Poppins', sans-serif;
+    margin: 100px 10px 0 10px;
+}
+
+.tour__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.tour__title--red {
+    color: #7F2736;
+}
+
+.tour__title--black {
+    color: #2C2D32;
+}
+
+.tour__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2C2D32;
+    padding-bottom: 60px;
+}
+
+.prev__button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+}
+
+.next__button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.image__box1, .image__box2, .image__box3 {
+    display: none;
+}
+
+.image__box1.active, .image__box2.active, .image__box3.active {
+    display: block;
+}
+
+.image__frame {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/15;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image__frame1 {
+    background-image: url(/assets/images/beijing.png);
+}
+
+.image__frame2 {
+    background-image: url(/assets/images/china.jpg);
+}
+
+.image__frame3 {
+    background-image: url(/assets/images/egypt.jpg);
+}
+
+.image__frame4 {
+    background-image: url(/assets/images/india.jpg);
+}
+
+.image__frame5 {
+    background-image: url(/assets/images/pakistan.png);
+}
+
+.image__frame6 {
+    background-image: url(/assets/images/turkey.png);
+}
+
+.image__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #7F2736;
+    padding-top: 10px;
+}
+
+.image__slide1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

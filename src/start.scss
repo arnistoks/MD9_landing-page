@@ -1,0 +1,196 @@
+.start {
+    background-color: #F0C53E;
+    border-bottom: #F0C53E solid;
+    border-bottom-left-radius: 90% 20%;
+    border-bottom-right-radius: 90% 20%;
+    padding-bottom: 30px;
+}
+
+.navigation {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #252641;
+    flex-wrap: wrap;
+}
+
+.logo {
+    padding: 60px 10px;
+    cursor: pointer;
+}
+
+.call {
+    padding: 60px 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.call__button {
+    background-color: #B25A59;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 40px 40px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    &:hover {
+        background-color: #5f1925;
+    }
+
+    &:active {
+        background-color: #B25A59;
+    }
+}
+
+.call__phone {
+    padding: 20px 10px;
+}
+
+.call__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 24px 10px;
+}
+
+.start__box--text {
+    padding: 20px 20px;
+}
+
+.start__title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 74px;
+}
+
+.start__title--red {
+    color: #7F2736;
+}
+
+.start__title--black {
+    color: #2C2D32;
+}
+
+.start__text {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 50px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #464646;
+}
+
+.start__picture {
+    padding: 20px 20px;
+}
+
+.explore__button {
+    background-color: #B25A59;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 40px 40px;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 24px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: #5f1925;
+    }
+
+    &:active {
+        background-color: #B25A59;
+    }
+}
+
+.watch__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch__button {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 2px 20px 60px rgba(61, 155, 185, 0.1);
+    border: 0;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0 0 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    &:hover {
+        background-color:rgb(199, 193, 193);
+    }
+
+    &:active {
+        background-color: #FFFFFF;
+    }
+}
+
+.start__coment {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252641;
+    padding: 10px 10px;
+    text-align: start;
+}
+
+.toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #F0C53E;
+    border: 2px solid #866a0b;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.toast__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #252641;
+}
+
+.toast__button {
+        cursor: pointer;
+        color: #2C2D32;
+    }
+    
+.toast__button svg:active {
+    color: #666363;
+}
+    
+.toast__button svg {
+    fill: currentColor;
+}
+

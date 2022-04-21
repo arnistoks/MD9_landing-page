@@ -1,3 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+@import 'reset.scss';
+
+@import 'start.scss';
+
+@import 'tour.scss';
+
+@import 'globally.scss';
+
+@import 'watch.scss';
+
+@import 'ourteam.scss';
+
+@import 'choosus.scss';
+
+@import 'customers.scss';
+
+@import 'news.scss';
+
+@import 'footer.scss';
+
+@media only screen and (min-width: 87.5em) {
+  .container {
+    width: 88.5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image__slide1, .image__slide3 {
+    display: none;
+  }
+
+  .watch__box {
+    padding-top: 15px;
+  }
+
+  .ourteam_image {
+    padding-right: 0;
+  }
+
+  .globally__image {
+    padding-bottom: 20px;
+  }
+
+  .choosus {
+    margin-bottom: 0;
+  }
+
+  .choosus__subbox {
+    margin-bottom: 100px;
+    height: auto;
+  }
+
+  .customers__box--right {
+    justify-content: center;
+  }
+
+  .customers__image {
+    padding: 30px 0 30px 0;
+  }
+
+  .news__box--large {
+    margin-bottom: 50px;
+  }
+}
+
 body {
-  background-color: antiquewhite;
+  background-color: white;
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }

@@ -1,0 +1,38 @@
+.globally {
+    margin-bottom: 100px;
+}
+
+.globally__box {
+    font-family: 'Poppins', sans-serif;
+    margin: 150px 10px 0 10px;
+    padding-bottom: 80px;
+}
+
+.globally__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.globally__title--red {
+    color: #7F2736;
+}
+
+.globally__title--black {
+    color: #2C2D32;
+}
+
+.globally__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #2C2D32;
+}
+
+.globally__image {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}

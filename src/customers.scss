@@ -1,0 +1,144 @@
+.customers {
+    margin-bottom: 100px;
+}
+
+.customers__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: start;
+    gap: 34px;
+}
+
+.customers__line {
+    width: 90.71px;
+    height: 0px;
+    border: 1px solid #2C2D32;
+}
+
+.customers__header--title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    color: #2C2D32;
+    margin: 0;
+}
+
+.customers__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #7F2736;
+    padding: 30px 0 30px 0;
+    text-align: left;
+}
+
+.customers__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #2C2D32;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.customers__box--right {
+    display: flex;
+    justify-content: end;
+}
+
+.customers__image {
+    width: 80%;
+}
+
+.customers__join {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.customers__join--title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #595959;
+    margin: 0;
+}
+
+.customers__join--text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #545567;
+}
+
+.customers__join--button {
+    background: #B25A59;
+    border-radius: 80px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: #5f2524;
+    }
+
+    &:active {
+        background: #B25A59;
+    } 
+}
+
+.customers__box--bottom {
+    margin-top: 80px;
+}
+
+.coment-list {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #2C2D32;
+    text-align: left;
+    padding-bottom: 25px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.coment-button {
+    width: 90px;
+    height: 80px;
+    border: 1px solid #EE5060;
+    background-color: transparent;
+    border-radius: 90px;
+}
+
+.coment-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 90px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #EE5060;
+    padding: 22px 65px;   
+}
+
+.coment-form {
+    width: 456.94px;
+    border: 1px solid #EE5060;
+    box-sizing: border-box;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: row;
+}
